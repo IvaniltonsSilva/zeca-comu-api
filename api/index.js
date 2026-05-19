@@ -25,10 +25,25 @@ export default async function handler(req, res) {
     }                                                                                                                                                                                      
                                                                                                                                                                                          
     const links = [
-      'https://chat.whatsapp.com/DZKrprJ2z4rL1TUnXqm1UM', // CMD 06
-      'https://chat.whatsapp.com/I31QytSFE5oK8s1IXqzDSL', // CMD 16                                                                                                                        
-      'https://chat.whatsapp.com/KTIV7fmxxsGFEHns5p3zTq', // CMD 03                                                                                                                        
-      'https://chat.whatsapp.com/JnbJMfDffrZDVUbNf4zNlu', // CMD 14                                                                                                                        
+      // Adriano - Dia 01
+      'https://chat.whatsapp.com/Bto8VAr36cvLgQPBgCHYX1', // 01
+      'https://chat.whatsapp.com/Il6k8YO0J467BnSa14LhZO', // 02
+      // Adriano - Dia 02
+      //'https://chat.whatsapp.com/KTIV7fmxxsGFEHns5p3zTq', // 03
+      //'https://chat.whatsapp.com/Ho3DCgKIhztAi6902uqbCc', // 04
+      // Adriano - Dia 03
+      //'https://chat.whatsapp.com/HHdJVe1vYRzBNGxCV3n376', // 05
+      //'https://chat.whatsapp.com/DZKrprJ2z4rL1TUnXqm1UM', // 06
+
+      // João - Dia 01
+      'https://chat.whatsapp.com/G0WiEKvY0V5JUUVYwNQybh', // 11
+      'https://chat.whatsapp.com/FrZ2WDrA2xREEbM5jDkwqY', // 12
+      // João - Dia 02
+      //'https://chat.whatsapp.com/ESVneZ14qiPLLi38TQhasz', // 13
+      //'https://chat.whatsapp.com/JnbJMfDffrZDVUbNf4zNlu', // 14
+      // João - Dia 03
+      //'https://chat.whatsapp.com/INddlJqtUvL4IXc2mpNIFn', // 15
+      //'https://chat.whatsapp.com/LZpweYFPnRXBpAs06JSccW', // 16
     ];                                                                                                                                                                                     
                                                                                                                                                                                          
     const link = links[Math.floor(Math.random() * links.length)];                                                                                                                          
